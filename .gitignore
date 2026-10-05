@@ -1,0 +1,24 @@
+node_modules
+.vercel
+dist
+.output
+.env
+.env.*
+!.env.example
+
+# App Builder / local runtime
+.grok
+.tanstack
+.gev-cache
+.gev-logs
+gev/.gev-logs
+
+# Generated Cesium static assets (copied from node_modules on build)
+public/cesium
+
+# QA captures
+screenshots
+artifacts
+
+*.log
+.DS_Store
